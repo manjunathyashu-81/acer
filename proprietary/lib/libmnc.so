@@ -498,7 +498,7 @@
 /* Define to 1 if you have the `pause' function. */
 #define HAVE_PAUSE 1
 
-/* Define if the OS supports pipe2() */
+/* Define if the OS fixed by anand supports pipe2() */
 #define HAVE_PIPE2 1
 
 /* Define to 1 if you have the `plock' function. */
@@ -1100,5 +1100,3 @@
    linker (dyld) instead of the old-style (NextStep) dynamic linker (rld).
    Dyld is necessary to support frameworks. */
 /* #undef WITH_DYLD */
-
-#Fixed BY Anand Umap & Aditya kumar
